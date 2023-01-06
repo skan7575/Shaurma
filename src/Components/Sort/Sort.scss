@@ -1,0 +1,50 @@
+.sort {
+  width: fit-content;
+  position: relative;
+  &__switch {
+    display: flex;
+    border: none;
+    align-items: center;
+    background: transparent;
+    &_min::before {
+      transform: rotate(180deg);
+    }
+    &::before {
+      width: 10px;
+      height: 5px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: '';
+      background-image: url(../../Images/switchASC.svg);
+    }
+  }
+  &__container {
+    display: flex;
+    gap: 10px;
+  }
+  &__select {
+    cursor: pointer;
+    color: #FE5F1E;
+  }
+  &__popup {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    width: fit-content;
+    text-align: left;
+    background-color: #fff;
+    right: 0;
+    list-style: none;
+    top: 10px;
+    position: absolute;
+    z-index: 1;
+    padding: 0;
+    &-item {
+      cursor: pointer;
+      padding: 10px 15px;
+      &_active {
+        background-color: #FE5F1E;
+        color: white;
+      }
+    }
+  }
+}

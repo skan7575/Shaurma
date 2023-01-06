@@ -1,0 +1,398 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "https://eda.yandex/images/1368744/6bc2f0a6bcbda78b3669dbf754b21aa2-216x188.jpeg",
+    "name": "Шаурма классическая с курицей Чесночная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 570,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://eda.yandex/images/3568095/7f2b72dba1b44dc19bdc898907c9a05d-216x188.jpeg",
+    "name": "Шаурма Кесадилья с курицей",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 429,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://eda.yandex/images/3531870/740bd84269af41fa9cf1d4952d5ec4fd-216x188.jpeg",
+    "name": "Шаурма Ореховая с говядиной",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 670,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://eda.yandex/images/2796335/4c3e514d94a141c3ac1ecf2829f703a0-216x188.jpeg",
+    "name": "Куриные шарики",
+    "types": [
+
+    ],
+    "sizes": [
+      "100г",
+      "200г"
+    ],
+    "price": 570,
+    "category": "2",
+    "rating": "5"
+  },
+  {
+    "id": 0,
+    "imageUrl": "https://eda.yandex/images/1368744/6bc2f0a6bcbda78b3669dbf754b21aa2-216x188.jpeg",
+    "name": "Шаурма классическая с курицей Чесночная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 570,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://eda.yandex/images/3568095/7f2b72dba1b44dc19bdc898907c9a05d-216x188.jpeg",
+    "name": "Шаурма Кесадилья с курицей",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 429,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://eda.yandex/images/3531870/740bd84269af41fa9cf1d4952d5ec4fd-216x188.jpeg",
+    "name": "Шаурма Ореховая с говядиной",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 670,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://eda.yandex/images/2796335/4c3e514d94a141c3ac1ecf2829f703a0-216x188.jpeg",
+    "name": "Куриные шарики",
+    "types": [
+
+    ],
+    "sizes": [
+      "100г",
+      "200г"
+    ],
+    "price": 570,
+    "category": "2",
+    "rating": "5"
+  },
+  {
+    "id": 0,
+    "imageUrl": "https://eda.yandex/images/1368744/6bc2f0a6bcbda78b3669dbf754b21aa2-216x188.jpeg",
+    "name": "Шаурма классическая с курицей Чесночная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 570,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://eda.yandex/images/3568095/7f2b72dba1b44dc19bdc898907c9a05d-216x188.jpeg",
+    "name": "Шаурма Кесадилья с курицей",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 429,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://eda.yandex/images/3531870/740bd84269af41fa9cf1d4952d5ec4fd-216x188.jpeg",
+    "name": "Шаурма Ореховая с говядиной",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 670,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://eda.yandex/images/2796335/4c3e514d94a141c3ac1ecf2829f703a0-216x188.jpeg",
+    "name": "Куриные шарики",
+    "types": [
+
+    ],
+    "sizes": [
+      "100г",
+      "200г"
+    ],
+    "price": 570,
+    "category": "2",
+    "rating": "5"
+  },
+  {
+    "id": 0,
+    "imageUrl": "https://eda.yandex/images/1368744/6bc2f0a6bcbda78b3669dbf754b21aa2-216x188.jpeg",
+    "name": "Шаурма классическая с курицей Чесночная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 570,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://eda.yandex/images/3568095/7f2b72dba1b44dc19bdc898907c9a05d-216x188.jpeg",
+    "name": "Шаурма Кесадилья с курицей",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 429,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://eda.yandex/images/3531870/740bd84269af41fa9cf1d4952d5ec4fd-216x188.jpeg",
+    "name": "Шаурма Ореховая с говядиной",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 670,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://eda.yandex/images/2796335/4c3e514d94a141c3ac1ecf2829f703a0-216x188.jpeg",
+    "name": "Куриные шарики",
+    "types": [
+
+    ],
+    "sizes": [
+      "100г",
+      "200г"
+    ],
+    "price": 570,
+    "category": "2",
+    "rating": "5"
+  },
+  {
+    "id": 0,
+    "imageUrl": "https://eda.yandex/images/1368744/6bc2f0a6bcbda78b3669dbf754b21aa2-216x188.jpeg",
+    "name": "Шаурма классическая с курицей Чесночная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 570,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://eda.yandex/images/3568095/7f2b72dba1b44dc19bdc898907c9a05d-216x188.jpeg",
+    "name": "Шаурма Кесадилья с курицей",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 429,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://eda.yandex/images/3531870/740bd84269af41fa9cf1d4952d5ec4fd-216x188.jpeg",
+    "name": "Шаурма Ореховая с говядиной",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 670,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://eda.yandex/images/2796335/4c3e514d94a141c3ac1ecf2829f703a0-216x188.jpeg",
+    "name": "Куриные шарики",
+    "types": [
+
+    ],
+    "sizes": [
+      "100г",
+      "200г"
+    ],
+    "price": 570,
+    "category": "2",
+    "rating": "5"
+  },
+  {
+    "id": 0,
+    "imageUrl": "https://eda.yandex/images/1368744/6bc2f0a6bcbda78b3669dbf754b21aa2-216x188.jpeg",
+    "name": "Шаурма классическая с курицей Чесночная",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 570,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 1,
+    "imageUrl": "https://eda.yandex/images/3568095/7f2b72dba1b44dc19bdc898907c9a05d-216x188.jpeg",
+    "name": "Шаурма Кесадилья с курицей",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 429,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://eda.yandex/images/3531870/740bd84269af41fa9cf1d4952d5ec4fd-216x188.jpeg",
+    "name": "Шаурма Ореховая с говядиной",
+    "types": [
+      0,
+      1
+    ],
+    "sizes": [
+      "мини",
+      "стандарт",
+      "обжора"
+    ],
+    "price": 670,
+    "category": "1",
+    "rating": "5"
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://eda.yandex/images/2796335/4c3e514d94a141c3ac1ecf2829f703a0-216x188.jpeg",
+    "name": "Куриные шарики",
+    "types": [
+
+    ],
+    "sizes": [
+      "100г",
+      "200г"
+    ],
+    "price": 570,
+    "category": "2",
+    "rating": "5"
+  }
+]

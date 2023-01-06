@@ -1,0 +1,20 @@
+.root {
+
+  border-radius: 20px;
+  position: relative;
+}
+.clear {
+  cursor: pointer;
+  max-width: 20px;
+  max-height: 20px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 2;
+}
+.input {
+  position: absolute;
+  left: 0;
+  padding: 5px 20px;
+  box-sizing: border-box;
+}
