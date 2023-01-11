@@ -1,25 +1,29 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './Category.scss'
 import Sort from "../Sort/Sort";
+import {setCategoryId} from "../../Redux/slices/FilterCategorySlice";
+import {useDispatch, useSelector} from "react-redux";
 
-function Category({sortByOrder,onChangeSort, sort, value, onClickCategory, sortSwitchProperty}) {
+function Category() {
+    const dispatch = useDispatch();
+    const {categoryId} = useSelector(state => state.filter)
 
     const nameCategory = ['Все','Классическая','Для драконов','Сырная','Веганская','Сладкая',];
+
+    const onChangeCategory = (i) => {
+        dispatch(setCategoryId(i))
+    }
     return (
         <div className='container__sort'>
             <ul className='category'>
                 {nameCategory.map((item, index) => {
-                    return <li   key={index} className={value === index ? 'category__item active' : 'category__item'} onClick={(e) => {
-                        onClickCategory(index)
+                    return <li   key={index} className={categoryId === index ? 'category__item active' : 'category__item'} onClick={(e) => {
+                        onChangeCategory(index)
                     }
                     }>{item}</li>
                 })}
             </ul>
-            <Sort
-                sortSwitchProperty={sortSwitchProperty}
-                sortByOrder={sortByOrder}
-                onChangeSort={onChangeSort}
-                sort={sort}/>
+            <Sort />
         </div>
 
 
