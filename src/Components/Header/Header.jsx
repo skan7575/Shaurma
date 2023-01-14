@@ -4,7 +4,9 @@ import './Header.scss'
 import CartButton from "../Cart-button/CartButton";
 import Search from "../Search/Search";
 
+
 function Header() {
+
     return (
         <header className='header'>
             <div className='header__container'>

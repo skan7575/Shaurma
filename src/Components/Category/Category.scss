@@ -25,25 +25,24 @@
     }
   }
   .active {
-    background-color: black;
+    background-color: rgba(234, 124, 105, 1);
+    color: white;
   }
   &__item {
     box-sizing: border-box;
-    background-color: #FE5F1E;
+    border: 1px solid rgba(57, 60, 73, 1);
     font-size: 16px;
     font-weight: 700;
     line-height: 19px;
     height: 46px;
     padding: 15px 10px;
     border-radius: 30px;
-    color: white;
+    color: rgba(234, 124, 105, 1);
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  &__active {
-    color: red;
-  }
+
 }

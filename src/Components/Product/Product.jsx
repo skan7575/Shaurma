@@ -1,8 +1,12 @@
 import React, {useEffect, useState} from 'react';
-
+import {addItem, removeItem} from "../../Redux/slices/cartSlice";
 import './Prodcut.scss'
+import {useDispatch, useSelector} from "react-redux";
 
-function Product({image, optionOne, size, name, price}) {
+function Product({id, image, optionOne, size, name, price}) {
+    const dispatch = useDispatch();
+    const cartItem = useSelector(state => state.cart.items.find(obj => obj.id === id))
+    const addedCount = cartItem ? cartItem.count : 0
 
     // выбор дефолта OptionOne при загрузке страницы
     useEffect(() => {
@@ -13,16 +17,24 @@ function Product({image, optionOne, size, name, price}) {
 
     const [activeType, setActiveType] = useState(0)
     const [activeSize, setActiveSize] = useState('')
-    const [count, setCount] = useState(0)
+
 
     function handleSubmitForm(e) {
         e.preventDefault()
 
     }
-
-    const handleCounterProduct = () => {
-        setCount(count + 1)
+    const onClickAdd = () => {
+        const items = {
+            optionOne: typesName[activeType],
+            name,
+            id,
+            image,
+            sizes: activeSize,
+            price,
+        };
+        dispatch(addItem(items))
     }
+
     const typesName = ['Синий', 'Желтый', 'панировка', 'без панировки']
 
     return (<div className='product'>
@@ -54,19 +66,14 @@ function Product({image, optionOne, size, name, price}) {
             <div className='product__container'>
                 <span className='product__price'>от {price} ₽</span>
                 <div className='product__add-container'>
-                    <button className={count <= 0 ? 'counter__delete' : 'counter__delete active'}
-                            onClick={() => {
-                                if (count <= 0) {
-                                    return count
-                                } else {
-                                    setCount(count - 1)
-                                }
-
-                            }}> -
+                    <button onClick={() => {
+                        dispatch(removeItem({id}))
+                    }} className={'1' <= 0 ? 'counter__delete' : 'counter__delete active'}>
                     </button>
-                    <button onClick={handleCounterProduct} className='product__add-cart-button'>
+                    <button onClick={onClickAdd} className='product__add-cart-button'>
                         Добавить
-                        <span className='counter__value'>{count}</span>
+                        {addedCount <= 0 ? '' :
+                            <span className='counter__value'>{addedCount}</span>}
                     </button>
                 </div>
 

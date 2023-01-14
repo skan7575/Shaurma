@@ -3,12 +3,12 @@ import ContentLoader from "react-content-loader"
 
 const SkeletonProduct = (props) => (
     <ContentLoader
-        speed={2}
+        speed={0.3}
         width={280}
         height={480}
         viewBox="0 0 280 480"
-        backgroundColor="#878787"
-        foregroundColor="#ecebeb"
+        backgroundColor="#1f1d2b"
+        foregroundColor="rgba(234, 124, 105, 1)"
         {...props}
     >
         <rect x="14" y="14" rx="38" ry="38" width="260" height="260" />

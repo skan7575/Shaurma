@@ -1,6 +1,32 @@
+.container {
+  min-height: 680px;
+  max-height: 680px;
+}
 .cart {
+  padding-top: 100px;
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 0 auto;
+  &__list {
+    position: relative;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 820px;
+    list-style: none;
+    max-height: 500px;
+    &::-webkit-scrollbar {
+
+      width: 7px;
+    }
+      &::-webkit-scrollbar-thumb {
+
+      background-color: #ea7c69;    /* цвет плашки */
+      border-radius: 20px;       /* закругления плашки */
+    }
+  }
+
   &__back {
     width: 210px;
     height: 55px;
@@ -35,17 +61,21 @@
     }
   }
   &__clear {
-    color: rgba(182, 182, 182, 1);
+    color: white;
+    background: transparent;
+    border: 1px #ea7c69;
     border: none;
     display: flex;
     align-items: center;
     gap: 10px;
+    &_disabled {
+    }
     &::before {
       box-sizing: border-box;
       width: 29px;
       height: 29px;
       content: '';
-      background-image: url('../../Images/clear.svg');
+      background-image: url('../../Images/Delete.svg');
       background-size: contain;
       background-repeat: no-repeat;
     }

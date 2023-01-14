@@ -9,19 +9,18 @@
   border-radius: 9px;
   display: flex;
   cursor: not-allowed;
-
 }
 .active {
   cursor: pointer;
   background-color: #FE5F1E;
 }
 .counter__value {
-  min-width: 20px;
+
 }
 .product {
   border-radius: 10px;
   padding: 30px 10px;
-  background-color: #fff;
+  background-color: rgba(31, 29, 43, 1);
   max-height: 460px;
   max-width: 260px;
   &__add-container {
@@ -40,12 +39,15 @@
     align-items: center;
     padding: 0 15px;
     gap: 20px;
-    background-color: black;
+    background-color: rgba(234, 124, 105, 1);
     color: white;
     height: 44px;
     border-radius: 22px;
+    border: none;
+    width: 120px;
   }
   &__price {
+    color: white;
     font-size: 22px;
     font-weight: 700;
     line-height: 27px;
@@ -72,7 +74,7 @@
     &-active {
       border-radius: 5px;
       cursor: pointer;
-      background-color: black;
+      background-color: rgba(234, 124, 105, 1);
     }
     &:hover {
       cursor: pointer;
@@ -84,16 +86,18 @@
     }
   }
   &__list {
-    border: none;
+    margin-top: 10px;
     padding: 5px;
     color: white;
-    background-color: #FE5F1E;
+    border: 1px solid rgba(234, 124, 105, 1);
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-align: center;
+    border-radius: 10px;
   }
   &__title {
+    color: white;
     padding: 20px 0;
     font-size: 20px;
   }
