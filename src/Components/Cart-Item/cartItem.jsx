@@ -5,7 +5,7 @@ import {addItem, clearItem, removeItem} from "../../Redux/slices/cartSlice";
 
 function CartItem({price, title, img, count, size, type, id}) {
     const dispatch = useDispatch()
-    console.log(type)
+
 
     const onClickAdd = (e) => {
         e.preventDefault()

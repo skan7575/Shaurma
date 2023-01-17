@@ -10,7 +10,7 @@ const cart = createSlice({
     initialState,
     reducers: {
         addItem(state, action) {
-            const findItem = state.items.find(obj => obj.id === action.payload.id && obj.sizes === action.payload.sizes && obj.optionOne === action.payload.optionOne)
+            const findItem = state.items.find(obj => obj.id === action.payload.id )
             if (findItem) {
                 findItem.count++
             } else {

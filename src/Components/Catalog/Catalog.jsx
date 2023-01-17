@@ -3,13 +3,12 @@ import Product from "../Product/Product";
 import './Catalog.scss'
 import SkeletonProduct from "../Skeleton/Skeleton";
 import SearchContext from "../../Context/SearchValue";
-function Catalog({products, isLoading}) {
+function Catalog({products, status}) {
     const {searchValue} = useContext(SearchContext)
-
     const productArr = products.filter(obj => {
         return !!obj.name.toLowerCase().includes(searchValue.toLowerCase());
     }).map(obj => {
-        console.log(obj)
+
         return <Product
             id={obj.id}
             key={obj.id}
@@ -28,7 +27,7 @@ function Catalog({products, isLoading}) {
     return (
         <>
             <ul className='catalog'>
-                {isLoading
+                {status === 'loading'
                     ? skeleton
                     : productArr
                 }
