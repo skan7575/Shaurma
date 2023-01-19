@@ -6,6 +6,26 @@
   padding-top: 100px;
   max-width: 1200px;
   margin: 0 auto;
+  &__footer {
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+  }
+  &__low {
+    color: #FE5F1E;
+    display: flex;
+    min-height: 500px;
+    align-items: center;
+    justify-content: center;
+  }
+  &__form {
+  }
+  &__totalPrice {
+    color: white;
+  }
   &__list {
     position: relative;
     overflow-y: scroll;

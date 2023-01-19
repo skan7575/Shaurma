@@ -10,8 +10,10 @@ export const getProducts = createAsyncThunk(
             sortByOrder
         } = params
         const res = await axios.get(`https://63ad51503e46516916562f86.mockapi.io/items?category=${categoryId > 0 ? categoryId : ''}&sortBy=${sort.sort}&order=${sortByOrder}`)
+
         return res.data
-    }
+    },
+
 )
 
 const initialState = {
